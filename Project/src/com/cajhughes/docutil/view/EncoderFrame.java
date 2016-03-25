@@ -18,7 +18,7 @@ public class EncoderFrame extends JFrame {
             setAlwaysOnTop(true);
             setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             setResizable(false);
-            setTitle("Base64 Encoder");
+            setTitle("Encoder64");
             init();
         } catch (Exception e) {
             e.printStackTrace();
@@ -26,7 +26,9 @@ public class EncoderFrame extends JFrame {
     }
 
     private void init() throws Exception {
-        Image docusign = Toolkit.getDefaultToolkit().getImage(getClass().getResource(DocuSignImage));
+        Toolkit toolkit = Toolkit.getDefaultToolkit();
+        Dimension screenSize = toolkit.getScreenSize();
+        Image docusign = toolkit.getImage(getClass().getResource(DocuSignImage));
         setIconImage(docusign);
         JPanel panel = new JPanel();
         JLabel label = new JLabel(new ImageIcon(docusign));
@@ -34,5 +36,6 @@ public class EncoderFrame extends JFrame {
         panel.add(label);
         add(panel);
         pack();
+        setLocation(screenSize.width-this.getWidth()-1, 1);
     }
 }
