@@ -12,11 +12,8 @@ import java.awt.dnd.DropTargetDragEvent;
 import java.awt.dnd.DropTargetDropEvent;
 import java.awt.dnd.DropTargetEvent;
 import java.awt.dnd.DropTargetListener;
-
 import java.io.File;
-
 import java.util.List;
-
 import javax.swing.JFrame;
 
 public class EncoderDragDropListener implements DropTargetListener {
