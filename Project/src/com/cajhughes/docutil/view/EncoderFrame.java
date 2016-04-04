@@ -25,7 +25,7 @@ public class EncoderFrame extends JFrame {
         }
     }
 
-    private void init() throws Exception {
+    private void init() {
         Toolkit toolkit = Toolkit.getDefaultToolkit();
         Dimension screenSize = toolkit.getScreenSize();
         Image docusign = toolkit.getImage(getClass().getResource(DocuSignImage));
