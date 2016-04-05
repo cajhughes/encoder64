@@ -10,7 +10,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-public class EncoderFrame extends JFrame {
+public final class EncoderFrame extends JFrame {
     private static final String DocuSignImage = "docusign.png";
     public EncoderFrame() {
         try {
