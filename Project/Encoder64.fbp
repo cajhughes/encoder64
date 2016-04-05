@@ -1,0 +1,7 @@
+<Project projectName="Encoder64">
+  <Jar>.\classes</Jar>
+  <SrcDir>.\src</SrcDir>
+  <SuppressionFilter>
+    <LastVersion value="-1" relOp="NEQ"/>
+  </SuppressionFilter>
+</Project>
