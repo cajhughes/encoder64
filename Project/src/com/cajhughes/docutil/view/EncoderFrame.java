@@ -36,6 +36,6 @@ public final class EncoderFrame extends JFrame {
         panel.add(label);
         add(panel);
         pack();
-        setLocation(screenSize.width-this.getWidth()-1, 1);
+        setLocation(screenSize.width-this.getWidth()-20, 20);
     }
 }
