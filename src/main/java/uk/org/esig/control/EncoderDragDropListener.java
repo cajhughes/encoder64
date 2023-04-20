@@ -1,6 +1,6 @@
-package com.cajhughes.docutil.control;
+package uk.org.esig.control;
 
-import com.cajhughes.docutil.model.FileEncoder;
+import uk.org.esig.model.FileEncoder;
 import java.awt.Cursor;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;

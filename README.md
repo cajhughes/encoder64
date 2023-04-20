@@ -5,4 +5,4 @@ A simple Java application that:
 2. Responds to a single file being "dropped" (as in drag-and-drop) into the window pane by performing a [Base64](https://en.wikipedia.org/wiki/Base64) encoding
 3. The result of the encoding is then placed into the system clipboard, so that it can be immediately pasted into a separate application
 
-![Encoder64 on Windows](https://github.com/cajhughes/encoder64/blob/master/encoder64-on-macOS.png)
+![Encoder64 on macOS](https://github.com/cajhughes/encoder64/blob/master/encoder64-on-macOS.png)

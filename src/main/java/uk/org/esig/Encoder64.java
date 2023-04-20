@@ -1,6 +1,6 @@
-package com.cajhughes.docutil;
+package uk.org.esig;
 
-import com.cajhughes.docutil.view.EncoderFrame;
+import uk.org.esig.view.EncoderFrame;
 import javax.swing.UIManager;
 
 class Encoder64 {

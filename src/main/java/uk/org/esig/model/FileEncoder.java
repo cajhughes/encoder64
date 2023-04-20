@@ -1,4 +1,4 @@
-package com.cajhughes.docutil.model;
+package uk.org.esig.model;
 
 import java.io.File;
 import java.io.IOException;
